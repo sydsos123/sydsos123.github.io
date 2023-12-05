@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8e95ac
+;
+}
+
+#wrap {
+    width: 70%;
+    background-color: ivory;
+    margin: 0 auto;
+}
+
+header,
+nav,
+footer {
+    padding: 15px;
+}
+
+header,
+footer {
+    background-color: #655a35;
+    text-align: center;
+    color: ivory;
+    font-family: Georgia, serif;
+}
+
+
+nav {
+    background-color: #be5f0c;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: ivory;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #ab560b;
+}
+
+
+aside { width: 25%;float: left;}
+
+article {width: 96%;
+background-color: ivory;
+float: right;
+padding: 1% 2% 3%}
+
+section{overflow: auto;}
+
+.four {width:45%; float:right; margin: 0 0 10px 20px}
+
+
+.fall nav {background-color: #984224;}
+.fall header, .fall footer {background-color: #b7701f;}
+body.fall {background-color: #b08f77}
+.autumn {width:60%; float:right; margin: 0 0 10px 20px;}
+
+
+.winter2 header, .winter2 footer{background-color: #0c3836;}
+.winter2 nav a:hover {background-color: #482126}
+.winter2 nav {background-color:#50242a;}
+.snow {width:55%; float: right; margin: 0 0 10px 20px}
+body.winter2 {background-color: #91939c}
+
+.spring header, .spring footer{background-color: #b5c188 ;}
+.spring nav a:hover {background-color: #d28898}
+.spring nav {background-color:#e997a9;}
+.boat {width:55%; float: right; margin: 0 0 10px 20px}
+body.spring {background-color: #b59fb0}
+
+.summer header, .summer footer{background-color:#82925f ;}
+.summer nav a:hover {background-color: #bba775}
+.summer nav {background-color: #d0b982;}
+.drive {width:55%; float: right; margin: 0 0 10px 20px}
+body.summer {background-color: #c08f97}
