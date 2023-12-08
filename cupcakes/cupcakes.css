@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header,
+nav,
+footer {
+    padding: 15px;
+}
+header {padding-top: 10px !important;}
+
+header,
+footer {
+    background-color: #bcc0e1;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+footer li {display: inline; margin: 0 7px}
+
+h2 {color: ivory}
+article h2 {color: Black}
+
+
+nav {
+    background-color: #e1bcd2;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: ivory;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #cba9bd;
+}
+
+
+aside { width: 25%; background-color: #d2e1bc; float: left; padding: 15px; text-align: center}
+aside li {list-style-type: none}
+    aside ul {margin: 0; padding:0;}
+aside ul li {margin-bottom: 11px}
+aside a {color: #33372e; text-decoration: none; padding: 15px; font-size: large;}
+.sidenav a { padding: 15px; border-radius:2px 2px 2px 2px;}
+.sidenav a:hover {left: 2px;background-color: #bdcbaa}
+
+.buy { align-content: center; width: 65%}
+
+
+
+article {width: 69%;
+background-color: ivory;
+float: right;
+padding: 1% 1% 3%}
+
+section{overflow: auto; background-color: #d2e1bc}
+
+
+
+@media screen and (max-width:800px) {
+    #wrap {width: 100%}
+    article {background-color: beige; }
+    aside, article {float: none; width: 96%; padding: 2% 2%;}
+    aside, li{list-style-type: none}
+    .buy {float: none; width: 50%;}
+    nav a, aside a {display: block; width: 100%; padding: 20px 0}
+    nav li, nav ul, aside li, aside ul { margin: 0; padding: 0}
+    nav, aside {padding: 0; text-align: center}
+    nav a { font-size: x-large; text-decoration: none}
+    
+    .head {width: 90%; float:center}
+    
