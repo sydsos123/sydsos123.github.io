@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:  #ddd;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section {
+  background-color:  #bcc0e1;
+  padding: 2%;
+}

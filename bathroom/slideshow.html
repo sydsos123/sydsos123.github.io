@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrap">
+    <header>
+      Header
+    </header>
+
+    <nav>
+      Nav
+    </nav>
+
+    <section>
+      <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+              <img src="images/packers.png" data-thumb="images/packers.png" alt="Packers" />
+              <a href="https://www.mlb.com" target="_blank"><img src="images/brewers.jpg" data-thumb="images/brewers.jpg" alt="Brewers" title="Milwaukee Brewers should have beaten the Braves" /></a>
+              <img src="images/wi.jpg" data-thumb="images/wi.jpg" alt="Wisconsin" data-transition="slideInRight" title="#htmlcaption1" />
+              <img src="images/bucks.jpg" data-thumb="images/bucks.jpg" alt="Bucks" title="#htmlcaption" />
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+              <a href="https://www.nba.com">Milwaukee Bucks</a> are the champs.
+          </div>
+          <div id="htmlcaption1" class="nivo-html-caption">
+              Wisconsin Badgers
+          </div>
+      </div>
+    </section>
+
+    <footer>
+      Footer
+    </footer>
+  </div><!--Close wrap-->
+  <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+  $(window).load(function() {
+      $('#slider').nivoSlider();
+  });
+  </script>
+  </body>
+</html>
